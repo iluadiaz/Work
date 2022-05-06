@@ -26,7 +26,6 @@ using DevOpsTask.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Configuration.SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json");
-builder.Configuration.AddUserSecrets<BandcSecrets>();
 var connectionString = builder.Configuration.GetConnectionString("DbConnection");
 
 
@@ -40,6 +39,10 @@ builder.Services.AddRazorPages();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped<DbContext, BandcDbContext>();
 builder.Services.AddScoped<IPersonApplicationRepository, PersonApplicationRepository>();
+builder.Services.AddScoped<IMBoardsandCommissionRepository, MBoardsandCommissionRepository>();
+builder.Services.AddScoped<IPersonRepository, PersonRepository>();
+builder.Services.AddScoped<ISubmittedApplicationRepository, SubmittedApplicationRepository>();
+
 
 var app = builder.Build();
 

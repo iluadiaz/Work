@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DevOpsTask.Models;
+//using DevOpsTask.Models.DbModels;
+
 namespace DevOpsTask.DAL.Abstract
 {
-    public interface IPersonApplicationRepository : IRepository<PersonApplication>
+    public interface IPersonApplicationRepository : IRepository<PersonApplications>
     {
-        IEnumerable<HelperViewModel> GetData();
+        IEnumerable<PersonApplications> GetData();
     }
 }

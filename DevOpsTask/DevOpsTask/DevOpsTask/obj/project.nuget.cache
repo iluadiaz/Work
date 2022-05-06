@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+ify8OW9UH525LqwaQGMVwi7uVQpVz3rr42Q/v+gF1YzcY3QCF5HjmtvzOKK8/+abF3RE/txaeiJQ5+x7rdveg==",
+  "dgSpecHash": "nPdp2NKVFBBv6sBlHUQikIQuIPywmSzR7WAEsB6Ls5qrCKHy3qt5wiZk4NxEqdNFo4rQgBtP0Ei1adWYGaM6dg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ILua\\source\\repos\\DevOpsTask\\DevOpsTask\\DevOpsTask.csproj",
+  "projectFilePath": "C:\\Users\\ILua\\Desktop\\CityOfSalemCode\\Work\\DevOpsTask\\DevOpsTask\\DevOpsTask\\DevOpsTask.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ILua\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ILua\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

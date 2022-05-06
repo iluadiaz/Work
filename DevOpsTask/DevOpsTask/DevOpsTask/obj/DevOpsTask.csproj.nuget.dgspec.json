@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ILua\\source\\repos\\DevOpsTask\\DevOpsTask\\DevOpsTask.csproj": {}
+    "C:\\Users\\ILua\\Desktop\\CityOfSalemCode\\Work\\DevOpsTask\\DevOpsTask\\DevOpsTask\\DevOpsTask.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ILua\\source\\repos\\DevOpsTask\\DevOpsTask\\DevOpsTask.csproj": {
+    "C:\\Users\\ILua\\Desktop\\CityOfSalemCode\\Work\\DevOpsTask\\DevOpsTask\\DevOpsTask\\DevOpsTask.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ILua\\source\\repos\\DevOpsTask\\DevOpsTask\\DevOpsTask.csproj",
+        "projectUniqueName": "C:\\Users\\ILua\\Desktop\\CityOfSalemCode\\Work\\DevOpsTask\\DevOpsTask\\DevOpsTask\\DevOpsTask.csproj",
         "projectName": "DevOpsTask",
-        "projectPath": "C:\\Users\\ILua\\source\\repos\\DevOpsTask\\DevOpsTask\\DevOpsTask.csproj",
+        "projectPath": "C:\\Users\\ILua\\Desktop\\CityOfSalemCode\\Work\\DevOpsTask\\DevOpsTask\\DevOpsTask\\DevOpsTask.csproj",
         "packagesPath": "C:\\Users\\ILua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ILua\\source\\repos\\DevOpsTask\\DevOpsTask\\obj\\",
+        "outputPath": "C:\\Users\\ILua\\Desktop\\CityOfSalemCode\\Work\\DevOpsTask\\DevOpsTask\\DevOpsTask\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ILua\\AppData\\Roaming\\NuGet\\NuGet.Config",
