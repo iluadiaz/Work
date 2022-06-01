@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mL3CMBWlmwfGL9jj48K0mP5u3676ob7qxVVTbNB5Gbk=",
+  "Hash": "N4POIJK/wCpAD6qvU+9oXrgIr4O8FqUuyE7WcQ/0yhg=",
   "Source": "DevOpsTask",
   "BasePath": "_content/DevOpsTask",
   "Mode": "Default",
@@ -2771,23 +2771,6 @@
       "OriginalItemSpec": "wwwroot\\Template\\img\\ui-divya.jpg"
     },
     {
-      "Identity": "C:\\Users\\ILua\\Desktop\\CityOfSalemCode\\Work\\DevOpsTask\\DevOpsTask\\DevOpsTask\\wwwroot\\Template\\img\\ui-sam.jpg",
-      "SourceId": "DevOpsTask",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ILua\\Desktop\\CityOfSalemCode\\Work\\DevOpsTask\\DevOpsTask\\DevOpsTask\\wwwroot\\",
-      "BasePath": "_content/DevOpsTask",
-      "RelativePath": "Template/img/ui-sam.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Template\\img\\ui-sam.jpg"
-    },
-    {
       "Identity": "C:\\Users\\ILua\\Desktop\\CityOfSalemCode\\Work\\DevOpsTask\\DevOpsTask\\DevOpsTask\\wwwroot\\Template\\img\\ui-sherman.jpg",
       "SourceId": "DevOpsTask",
       "SourceType": "Discovered",
@@ -2803,6 +2786,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Template\\img\\ui-sherman.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ILua\\Desktop\\CityOfSalemCode\\Work\\DevOpsTask\\DevOpsTask\\DevOpsTask\\wwwroot\\Template\\img\\ui-spongebob.jpg",
+      "SourceId": "DevOpsTask",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ILua\\Desktop\\CityOfSalemCode\\Work\\DevOpsTask\\DevOpsTask\\DevOpsTask\\wwwroot\\",
+      "BasePath": "_content/DevOpsTask",
+      "RelativePath": "Template/img/ui-spongebob.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Template\\img\\ui-spongebob.jpg"
     },
     {
       "Identity": "C:\\Users\\ILua\\Desktop\\CityOfSalemCode\\Work\\DevOpsTask\\DevOpsTask\\DevOpsTask\\wwwroot\\Template\\img\\ui-zac.jpg",
