@@ -1,0 +1,29 @@
+﻿@model HelperViewModel
+
+
+
+<li class="mt">
+<div class="dropdown">
+  <i class="fa fa-search"><button class="dropbtn">Boards and Commissions</button></i>
+  <div class="dropdown-content">
+ 
+   @{
+           @foreach(var data in Model.MBoardsandCommissions){
+            {
+                 @using (Html.BeginForm("SortByBoard", "Home", FormMethod.Get))
+                 {
+                    <input hidden type="text" id ="board" name = "board" style = "color:grey;" value = "@data.BoardOrCommissionName">
+                    <input type = "submit" class = "btn"  value = "@data.BoardOrCommissionName" style = "color:grey; height:50px; width:162px; text-align:left; white-space: initial; " >
+                 }
+            }
+                                                            }
+   }
+  
+  </div>
+</div>
+  </i>
+</li> 
+
+<link rel="stylesheet" type="text/css" href="~/css/dropdown.css">
+
+

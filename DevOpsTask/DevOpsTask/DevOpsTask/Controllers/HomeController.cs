@@ -34,13 +34,104 @@ namespace DevOpsTask.Controllers
             model.Person = personRepository.GetData().ToList();
             model.SubmittedApplications = submittedApplicationRepository.GetData();
 
-            var requirements = new RequirementsModel();
             model.Requirements = model.GetData(model.Person.ToList(), model.MBoardsandCommissions.ToList(), model.PersonApplications.ToList(), 
                                  model.SubmittedApplications.ToList());
 
             return View(model);
         }
 
+        public IActionResult Appointed()
+        {
+            HelperViewModel model = new HelperViewModel();
+            model.PersonApplications = personAppRepository.GetData().ToList();
+            model.MBoardsandCommissions = mBoardsandCommissionRepository.GetData().ToList();
+            model.Person = personRepository.GetData().ToList();
+            model.SubmittedApplications = submittedApplicationRepository.GetData();
+
+            model.Requirements = model.GetData(model.Person.ToList(), model.MBoardsandCommissions.ToList(), model.PersonApplications.ToList(),
+                                 model.SubmittedApplications.ToList());
+
+            return View(model);
+        }
+
+        public IActionResult NotAppointed()
+        {
+            HelperViewModel model = new HelperViewModel();
+            model.PersonApplications = personAppRepository.GetData().ToList();
+            model.MBoardsandCommissions = mBoardsandCommissionRepository.GetData().ToList();
+            model.Person = personRepository.GetData().ToList();
+            model.SubmittedApplications = submittedApplicationRepository.GetData();
+
+            model.Requirements = model.GetData(model.Person.ToList(), model.MBoardsandCommissions.ToList(), model.PersonApplications.ToList(),
+                                 model.SubmittedApplications.ToList());
+
+            return View(model);
+        }
+
+        public IActionResult SortByBoard(string board)
+        {
+            HelperViewModel model = new HelperViewModel();
+            model.PersonApplications = personAppRepository.GetData().ToList();
+            model.MBoardsandCommissions = mBoardsandCommissionRepository.GetData().ToList();
+            model.Person = personRepository.GetData().ToList();
+            model.SubmittedApplications = submittedApplicationRepository.GetData();
+
+            model.Requirements = model.GetData(model.Person.ToList(), model.MBoardsandCommissions.ToList(), model.PersonApplications.ToList(),
+                                 model.SubmittedApplications.ToList());
+
+            model.Board = board;
+
+            return View(model);
+        }
+
+        public IActionResult SortByBoardAppointed(string board)
+        {
+            HelperViewModel model = new HelperViewModel();
+            model.PersonApplications = personAppRepository.GetData().ToList();
+            model.MBoardsandCommissions = mBoardsandCommissionRepository.GetData().ToList();
+            model.Person = personRepository.GetData().ToList();
+            model.SubmittedApplications = submittedApplicationRepository.GetData();
+
+            model.Requirements = model.GetData(model.Person.ToList(), model.MBoardsandCommissions.ToList(), model.PersonApplications.ToList(),
+                                 model.SubmittedApplications.ToList());
+
+            model.Board = board;
+
+            return View(model);
+        }
+
+        public IActionResult SortByBoardNotAppointed(string board)
+        {
+            HelperViewModel model = new HelperViewModel();
+            model.PersonApplications = personAppRepository.GetData().ToList();
+            model.MBoardsandCommissions = mBoardsandCommissionRepository.GetData().ToList();
+            model.Person = personRepository.GetData().ToList();
+            model.SubmittedApplications = submittedApplicationRepository.GetData();
+
+            model.Requirements = model.GetData(model.Person.ToList(), model.MBoardsandCommissions.ToList(), model.PersonApplications.ToList(),
+                                 model.SubmittedApplications.ToList());
+
+            model.Board = board;
+
+            return View(model);
+        }
+
+        [HttpGet]
+        public IActionResult PopulateModal(string PersonId)
+        {
+            HelperViewModel model = new HelperViewModel();
+            model.PersonApplications = personAppRepository.GetData().ToList();
+            model.MBoardsandCommissions = mBoardsandCommissionRepository.GetData().ToList();
+            model.Person = personRepository.GetData().ToList();
+            model.SubmittedApplications = submittedApplicationRepository.GetData();
+
+            model.Requirements = model.GetData(model.Person.ToList(), model.MBoardsandCommissions.ToList(), model.PersonApplications.ToList(),
+                                 model.SubmittedApplications.ToList());
+
+            model.PersonId = PersonId;
+
+            return View(model);
+        }
         public IActionResult Privacy()
         {
             return View();

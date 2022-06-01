@@ -27,6 +27,9 @@ namespace DevOpsTask.Models
 
         public IEnumerable<RequirementsModel>           Requirements                = null;
 
+        public string                                   Board                       = null;
+
+        public string                                   PersonId                    = null;
         public List<string> ParseQuestionsXML(string xml)
         {
             var doc = XDocument.Parse(xml);
@@ -82,6 +85,7 @@ namespace DevOpsTask.Models
                                 addMe.Questions = ParseQuestionsXML(x.SupplementalAnswers);
                                 addMe.Answers = ParseAnswersXML(x.SupplementalAnswers);
                                 addMe.BoardSeat = z.BoardOrCommissionName;
+                                addMe.PersonId = y.PersonKey.ToString();
                                 model.Add(addMe);
                             }
                     }

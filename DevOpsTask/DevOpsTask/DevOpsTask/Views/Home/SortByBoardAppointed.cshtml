@@ -72,15 +72,15 @@
               <input type="submit" class ="btn" value="Not Appointed List" style = "color:grey; width:150px; text-align:left; border: none; background:none;">
           </li>
             }
-             @using (Html.BeginForm("Index", "Home", FormMethod.Get))
+            @using (Html.BeginForm("Index", "Home", FormMethod.Get))
             {
           <li class="mt">
               <i class="fa fa-book"></i>
              <input hidden type="text" style = "color:grey;" value="All Applicants">
-              <input type="submit" class ="btn" value="All Applicants" style = "color:grey; width:150px; text-align:left; border: none; background:none;">
+              <input type="submit" class ="btn" value="All Applicantst" style = "color:grey; width:150px; text-align:left; border: none; background:none;">
           </li>
             }
-               <partial name="_GenerateDropDownPartial" />  
+               <partial name="_GenerateDropDownPartialAppointed" />  
         </ul>
         <!-- sidebar menu end-->
       </div>
@@ -90,13 +90,12 @@
         MAIN CONTENT
         *********************************************************************************************************************************************************** -->
     <!--main content start-->
-     <partial name="_IndexPartial" />
+     <partial name="_SortByBoardAppointedPartial" />
     <!-- /MAIN CONTENT -->
     <!--main content end-->
     <!--footer start-->
     <footer class="site-footer">
       <div class="text-center">
-
         <p>
           &copy; Copyrights <strong>Dashio</strong>. All Rights Reserved
         </p>

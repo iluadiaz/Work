@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8aWxERmX39SC/QsKt80WT18xBVkx0h7enDF+TblEDpg=",
+  "Hash": "mL3CMBWlmwfGL9jj48K0mP5u3676ob7qxVVTbNB5Gbk=",
   "Source": "DevOpsTask",
   "BasePath": "_content/DevOpsTask",
   "Mode": "Default",
@@ -1069,6 +1069,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ILua\\Desktop\\CityOfSalemCode\\Work\\DevOpsTask\\DevOpsTask\\DevOpsTask\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DevOpsTask.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\ILua\\Desktop\\CityOfSalemCode\\Work\\DevOpsTask\\DevOpsTask\\DevOpsTask\\wwwroot\\css\\dropdown.css",
+      "SourceId": "DevOpsTask",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ILua\\Desktop\\CityOfSalemCode\\Work\\DevOpsTask\\DevOpsTask\\DevOpsTask\\wwwroot\\",
+      "BasePath": "_content/DevOpsTask",
+      "RelativePath": "css/dropdown.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\dropdown.css"
     },
     {
       "Identity": "C:\\Users\\ILua\\Desktop\\CityOfSalemCode\\Work\\DevOpsTask\\DevOpsTask\\DevOpsTask\\wwwroot\\css\\site.css",

@@ -15,16 +15,72 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/ILua/Desktop/CityOfSalemCode/Work/DevOpsTask/DevOpsTask/DevOpsTask/Views/Home/Appointed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBcHBvaW50ZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ILua/Desktop/CityOfSalemCode/Work/DevOpsTask/DevOpsTask/DevOpsTask/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ILua/Desktop/CityOfSalemCode/Work/DevOpsTask/DevOpsTask/DevOpsTask/Views/Home/NotAppointed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOb3RBcHBvaW50ZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ILua/Desktop/CityOfSalemCode/Work/DevOpsTask/DevOpsTask/DevOpsTask/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ILua/Desktop/CityOfSalemCode/Work/DevOpsTask/DevOpsTask/DevOpsTask/Views/Home/SortByBoard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb3J0QnlCb2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ILua/Desktop/CityOfSalemCode/Work/DevOpsTask/DevOpsTask/DevOpsTask/Views/Home/SortByBoardAppointed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb3J0QnlCb2FyZEFwcG9pbnRlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ILua/Desktop/CityOfSalemCode/Work/DevOpsTask/DevOpsTask/DevOpsTask/Views/Home/SortByBoardNotAppointed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb3J0QnlCb2FyZE5vdEFwcG9pbnRlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ILua/Desktop/CityOfSalemCode/Work/DevOpsTask/DevOpsTask/DevOpsTask/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ILua/Desktop/CityOfSalemCode/Work/DevOpsTask/DevOpsTask/DevOpsTask/Views/Shared/_AppointedPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BcHBvaW50ZWRQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ILua/Desktop/CityOfSalemCode/Work/DevOpsTask/DevOpsTask/DevOpsTask/Views/Shared/_GenerateDropDownPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9HZW5lcmF0ZURyb3BEb3duUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ILua/Desktop/CityOfSalemCode/Work/DevOpsTask/DevOpsTask/DevOpsTask/Views/Shared/_GenerateDropDownPartialAppointed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9HZW5lcmF0ZURyb3BEb3duUGFydGlhbEFwcG9pbnRlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ILua/Desktop/CityOfSalemCode/Work/DevOpsTask/DevOpsTask/DevOpsTask/Views/Shared/_GenerateDropDownPartialNotAppointed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9HZW5lcmF0ZURyb3BEb3duUGFydGlhbE5vdEFwcG9pbnRlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ILua/Desktop/CityOfSalemCode/Work/DevOpsTask/DevOpsTask/DevOpsTask/Views/Shared/_IndexPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9JbmRleFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ILua/Desktop/CityOfSalemCode/Work/DevOpsTask/DevOpsTask/DevOpsTask/Views/Shared/_NotAppointedPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RBcHBvaW50ZWRQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ILua/Desktop/CityOfSalemCode/Work/DevOpsTask/DevOpsTask/DevOpsTask/Views/Shared/_SortByBoardAppointedPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Tb3J0QnlCb2FyZEFwcG9pbnRlZFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ILua/Desktop/CityOfSalemCode/Work/DevOpsTask/DevOpsTask/DevOpsTask/Views/Shared/_SortByBoardNotAppointedPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Tb3J0QnlCb2FyZE5vdEFwcG9pbnRlZFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ILua/Desktop/CityOfSalemCode/Work/DevOpsTask/DevOpsTask/DevOpsTask/Views/Shared/_SortByBoardPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Tb3J0QnlCb2FyZFBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ILua/Desktop/CityOfSalemCode/Work/DevOpsTask/DevOpsTask/DevOpsTask/Views/Shared/_ValidationScriptsPartial.cshtml]

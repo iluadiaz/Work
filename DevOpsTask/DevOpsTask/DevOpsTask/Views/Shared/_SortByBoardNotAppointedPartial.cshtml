@@ -1,0 +1,125 @@
+﻿@model HelperViewModel
+
+<section id="main-content">
+      <section class="wrapper">
+        <h3><i class="fa fa-angle-right"></i> </h3>
+        <div class="row mb">
+          <!-- page start-->
+          <div class="content-panel">
+            <div class="adv-table">
+              <table cellpadding="0" cellspacing="0" border="0" class="display table table-bordered" id="hidden-table-info">
+                <thead>
+                  <tr class = "gradeA even">
+                    <th>Applicant</th>
+                    <th>Application Date</th>
+                    <th class="hidden-phone">Board Seat</th>
+                    <th class="hidden-phone">Term Expiration Date</th>
+                    <th class="hidden-phone">CSS grade</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    @{
+                        @foreach(var data in Model.Requirements){
+                        if(data.BoardSeat == Model.Board && data.Appointed != true)
+                        {
+
+                  <tr class="gradeX" >
+                    
+                    <td>@data.FirstName @data.LastName
+                    <div class="container" style="width:100px">
+
+                <input hidden type="text" style = "color:grey;" value="@data.PersonId" name ="PersonId" id = "PersonId">
+                    <button type="submit" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal_@data.PersonId" data-id="@data.PersonId"
+                                  style = "border:none; border-color:transparent; background-color:transparent; color:grey;
+                                           width: 45px; align-self:flex-start">Contact Info</button>
+            
+                    <input hidden type="text" style = "color:grey;" value="@data.PersonId" name ="PersonId" id = "PersonId">
+                    <button type="submit" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalB_@data.PersonId" 
+                                  style = "border:none; border-color:transparent; background-color:transparent; color:grey;
+                                           width: 45px; align-self:flex-end">Questions</button>
+
+                  
+
+                                  <!-- Modal -->
+  <div class="modal fade" id="myModal_@data.PersonId" role="dialog">
+    <div class="modal-dialog">
+    
+     
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Contact Info</h4>
+        </div>
+                          <div class="modal-body">
+         
+
+          <p>@data.FirstName @data.LastName</p>
+          <p>@data.Address</p>
+          <p>@data.Phone</p>
+          <p>@data.Email</p>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+
+                   
+                      </div>
+                      </div>
+   
+     <div class="modal fade" id="myModalB_@data.PersonId" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+
+                           
+
+               <p>@data.Questions[0] </p>
+                <br/>
+               <p>@data.Answers[0]</p>
+                 <br/>
+                <br/> 
+               <p>@data.Questions[1] </p>
+                <br/>
+               <p>@data.Answers[1]</p>
+            
+           
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+
+                      </div>
+                      </div>
+                      </div>
+                    </td>
+                    <td>@data.ApplicationDate</td>
+                    <td class="hidden-phone">@data.BoardSeat</td>
+                    <td class="center hidden-phone">N/A</td>
+                    <td class="center hidden-phone"></td>
+                  </tr>
+ 
+                                     }
+                  }
+                  }
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- page end-->
+        </div>
+        <!-- /row -->
+      </section>
+    </section>

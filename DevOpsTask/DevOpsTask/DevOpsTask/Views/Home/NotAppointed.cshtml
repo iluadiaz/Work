@@ -42,7 +42,7 @@
         <div hidden class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
       </div>
       <!--logo start-->
-      <a href="index.cshtml" class="logo"><b>City of<span> Salem</span></b></a>
+      <a href="index.html" class="logo"><b>City of<span> Salem</span></b></a>
   
     </header>
     <!--header end-->
@@ -72,7 +72,7 @@
               <input type="submit" class ="btn" value="Not Appointed List" style = "color:grey; width:150px; text-align:left; border: none; background:none;">
           </li>
             }
-             @using (Html.BeginForm("Index", "Home", FormMethod.Get))
+            @using (Html.BeginForm("Index", "Home", FormMethod.Get))
             {
           <li class="mt">
               <i class="fa fa-book"></i>
@@ -80,7 +80,7 @@
               <input type="submit" class ="btn" value="All Applicants" style = "color:grey; width:150px; text-align:left; border: none; background:none;">
           </li>
             }
-               <partial name="_GenerateDropDownPartial" />  
+               <partial name="_GenerateDropDownPartialNotAppointed" />  
         </ul>
         <!-- sidebar menu end-->
       </div>
@@ -90,13 +90,12 @@
         MAIN CONTENT
         *********************************************************************************************************************************************************** -->
     <!--main content start-->
-     <partial name="_IndexPartial" />
+     <partial name="_NotAppointedPartial" />
     <!-- /MAIN CONTENT -->
     <!--main content end-->
     <!--footer start-->
     <footer class="site-footer">
       <div class="text-center">
-
         <p>
           &copy; Copyrights <strong>Dashio</strong>. All Rights Reserved
         </p>

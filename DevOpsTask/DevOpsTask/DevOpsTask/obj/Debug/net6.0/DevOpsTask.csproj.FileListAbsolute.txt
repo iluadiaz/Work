@@ -270,9 +270,6 @@ C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\obj\
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\obj\Debug\net6.0\DevOpsTask.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\obj\Debug\net6.0\DevOpsTask.RazorAssemblyInfo.cache
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\obj\Debug\net6.0\DevOpsTask.RazorAssemblyInfo.cs
-C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\obj\Debug\net6.0\DevOpsTask.dll
-C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\obj\Debug\net6.0\refint\DevOpsTask.dll
-C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\obj\Debug\net6.0\DevOpsTask.pdb
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\appsettings.json
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\DevOpsTask.staticwebassets.runtime.json
@@ -536,5 +533,8 @@ C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\obj\
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\obj\Debug\net6.0\scopedcss\bundle\DevOpsTask.styles.css
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\obj\Debug\net6.0\scopedcss\projectbundle\DevOpsTask.bundle.scp.css
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\obj\Debug\net6.0\DevOpsTask.csproj.CopyComplete
+C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\obj\Debug\net6.0\DevOpsTask.dll
+C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\obj\Debug\net6.0\refint\DevOpsTask.dll
+C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\obj\Debug\net6.0\DevOpsTask.pdb
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\obj\Debug\net6.0\DevOpsTask.genruntimeconfig.cache
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\obj\Debug\net6.0\ref\DevOpsTask.dll

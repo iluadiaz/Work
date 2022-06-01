@@ -23,5 +23,9 @@
         public List<string>                             Questions                   = null;
 
         public List<string>                             Answers                     = null;
+
+        public string                                   Board                       = null;
+
+        public string                                   PersonId                    = null;
     }
 }
