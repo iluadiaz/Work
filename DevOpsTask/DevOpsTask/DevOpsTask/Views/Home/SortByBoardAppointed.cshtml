@@ -1,5 +1,8 @@
 ﻿@model HelperViewModel
+@using Microsoft.AspNetCore.Identity
 
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -37,13 +40,13 @@
         TOP BAR CONTENT & NOTIFICATIONS
         *********************************************************************************************************************************************************** -->
     <!--header start-->
-    <header class="header black-bg">
+      <header class="header black-bg" style ="background-color:white; border:none; color:black;">
       <div hidden class="sidebar-toggle-box">
         <div hidden class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
       </div>
       <!--logo start-->
-      <a href="index.cshtml" class="logo"><b>City of<span> Salem</span></b></a>
-  
+      <img src="~/Template/img/logo.jpeg" style="height:57px; width:200px;" >
+
     </header>
     <!--header end-->
     <!-- **********************************************************************************************************************************************************
@@ -51,36 +54,50 @@
         *********************************************************************************************************************************************************** -->
     <!--sidebar start-->
     <aside>
-      <div id="sidebar" class="nav-collapse ">
+     <div id="sidebar" class="nav-collapse " style ="background-color:steelblue;">
         <!-- sidebar menu start-->
-        <ul class="sidebar-menu" id="nav-accordion">
+        <ul class="sidebar-menu" id="nav-accordion" style ="background-color:steelblue;">
           <p class="centered"><a href="profile.html"><img src="~/Template/img/ui-spongebob.jpg" class="img-circle" width="80"></a></p>
-          <h5 class="centered">Ivan Lua-Diaz</h5>
+          @if (SignInManager.IsSignedIn(User))
+                    {
+                        <h5 style= "text-align:center; padding-left:2px;">Hello @UserManager.GetUserName(User)!</h5>
+                    }
+                    else
+                    {
+                        <h5 style= "text-align:center;" >Hello!</h5>
+                    }
             @using (Html.BeginForm("Appointed", "Home", FormMethod.Get))
             {
           <li class="mt">
-              <i class="fa fa-book"></i>
+             <i style = "color:white;" class="fa fa-book"></i>
                <input hidden type="text" style = "color:grey;" value="Appointed List">
-               <input type="submit" class ="btn" value="Appointed List" style = "color:grey; width:150px; text-align:left; border: none; background:none;">
+               <input type="submit" class ="btn" value="Appointed List" 
+              style = "color:white; width:150px; text-align:left; border: none; background:none; 
+                       font-weight: bold;">
           </li>
             }
               @using (Html.BeginForm("NotAppointed", "Home", FormMethod.Get))
             {
           <li class="mt">
-              <i class="fa fa-book"></i>
+             <i style = "color:white;" class="fa fa-book"></i>
              <input hidden type="text" style = "color:grey;" value="Not Appointed List">
-              <input type="submit" class ="btn" value="Not Appointed List" style = "color:grey; width:150px; text-align:left; border: none; background:none;">
+              <input type="submit" class ="btn" value="Not Appointed List" 
+              style = "color:white; width:150px; text-align:left; border: none; background:none; 
+                       font-weight: bold;">
           </li>
             }
             @using (Html.BeginForm("Index", "Home", FormMethod.Get))
             {
           <li class="mt">
-              <i class="fa fa-book"></i>
+             <i style = "color:white;" class="fa fa-book"></i>
              <input hidden type="text" style = "color:grey;" value="All Applicants">
-              <input type="submit" class ="btn" value="All Applicantst" style = "color:grey; width:150px; text-align:left; border: none; background:none;">
+                <input type="submit" class ="btn" value="All Applicants"  
+                style = "color:white; width:150px; text-align:left; border: none; background:none; 
+                       font-weight: bold;">
           </li>
             }
                <partial name="_GenerateDropDownPartialAppointed" />  
+               <partial name="_LoginPartial" />
         </ul>
         <!-- sidebar menu end-->
       </div>
@@ -94,7 +111,7 @@
     <!-- /MAIN CONTENT -->
     <!--main content end-->
     <!--footer start-->
-    <footer class="site-footer">
+    <footer  class="site-footer" style ="background-color:steelblue;">
       <div class="text-center">
         <p>
           &copy; Copyrights <strong>Dashio</strong>. All Rights Reserved
@@ -108,9 +125,7 @@
           -->
           Created with Dashio template by <a href="https://templatemag.com/">TemplateMag</a>
         </div>
-        <a href="advanced_table.html#" class="go-top">
-          <i class="fa fa-angle-up"></i>
-          </a>
+
       </div>
     </footer>
     <!--footer end-->

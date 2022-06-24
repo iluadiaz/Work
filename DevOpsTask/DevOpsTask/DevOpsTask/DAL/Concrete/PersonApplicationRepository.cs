@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using DevOpsTask.Models;
+﻿using DevOpsTask.Models;
 using DevOpsTask.DAL.Abstract;
-using DevOpsTask.DAL.Concrete;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Query;
-using System.Collections;
-//using DevOpsTask.Models.DbModels;
+
+
 
 namespace DevOpsTask.DAL.Concrete
 {

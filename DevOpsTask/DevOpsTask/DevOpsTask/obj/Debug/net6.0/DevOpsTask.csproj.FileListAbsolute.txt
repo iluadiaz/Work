@@ -314,9 +314,11 @@ C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\Microsoft.Extensions.Hosting.dll
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\Microsoft.Identity.Client.dll
@@ -325,6 +327,7 @@ C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -345,6 +348,9 @@ C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\NuGet.ProjectModel.dll
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\NuGet.Protocol.dll
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\NuGet.Versioning.dll
+C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\System.Composition.AttributedModel.dll
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\System.Composition.Convention.dll
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\System.Composition.Hosting.dll
@@ -521,12 +527,12 @@ C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
-C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\ILua\Desktop\CityOfSalemCode\Work\DevOpsTask\DevOpsTask\DevOpsTask\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css

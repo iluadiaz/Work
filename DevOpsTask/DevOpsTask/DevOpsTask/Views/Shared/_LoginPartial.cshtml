@@ -1,0 +1,39 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+
+@if (SignInManager.IsSignedIn(User))
+{
+    
+     <li class="mt">
+
+         <a style = "color:white; width:150px; text-align:left; border: none; background:none; 
+                       font-weight: bold;" asp-area="" asp-controller="Admin" asp-action="Index">Admin</a>
+     </li>
+
+
+    <li class="mt">
+      <form  id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+
+                <button  style = "color:white; width:150px; text-align:left; border: none; background:none; 
+                       font-weight: bold;" id="logout" type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+        </form>
+     </li>
+}
+else
+{
+      
+    <li class="mt">   
+        <a style = "color:white; width:150px; text-align:left; border: none; background:none; 
+                       font-weight: bold;" class="dropdown-item" id="register" asp-area="Identity" asp-page="/Account/Register">Register</a>
+    </li>
+    <li class="mt">    
+        <a style = "color:white; width:150px; text-align:left; border: none; background:none; 
+                       font-weight: bold;"  id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
+    </li>
+
+
+    }
+

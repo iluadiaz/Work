@@ -1,0 +1,160 @@
+﻿@page
+@model LogoutModel
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@{
+    ViewData["Title"] = "Log out";
+}
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DevOpsTask</title>
+  <meta name="description" content="">
+  <meta name="author" content="Dashboard">
+  <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+  <title>Dashio - Bootstrap Admin Template</title>
+
+  <!-- Favicons -->
+  <link href="~/Template/img/favicon.png" rel="icon">
+  <link href="~/Template/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="~/Template/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!--external css-->
+  <link href="~/Template/lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+  <link href="~/Template/lib/advanced-datatable/css/demo_page.css" rel="stylesheet" />
+  <link href="~/Template/lib/advanced-datatable/css/demo_table.css" rel="stylesheet" />
+  <link rel="stylesheet" href="~/Template/lib/advanced-datatable/css/DT_bootstrap.css" />
+  <!-- Custom styles for this template -->
+  <link href="~/Template/css/style.css" rel="stylesheet">
+  <link href="~/Template/css/style-responsive.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Template Name: Dashio
+    Template URL: https://templatemag.com/dashio-bootstrap-admin-template/
+    Author: TemplateMag.com
+    License: https://templatemag.com/license/
+  ======================================================= -->
+</head>
+<body>
+  <section id="container" style = "background-color:white;">
+    <!-- **********************************************************************************************************************************************************
+        TOP BAR CONTENT & NOTIFICATIONS
+        *********************************************************************************************************************************************************** -->
+    <!--header start-->
+    <header class="header black-bg" style ="background-color:white; border:none; color:black;">
+      <div hidden class="sidebar-toggle-box">
+        <div hidden class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+      </div>
+      <!--logo start-->
+      <img src="~/Template/img/logo.jpeg" style="height:57px; width:200px;" >
+    </header>
+    <!--header end-->
+    <!-- **********************************************************************************************************************************************************
+        MAIN SIDEBAR MENU
+        *********************************************************************************************************************************************************** -->
+    <!--sidebar start-->
+    <aside>
+      <div id="sidebar" class="nav-collapse " style ="background-color:steelblue;">
+        <!-- sidebar menu start-->
+        <ul class="sidebar-menu" id="nav-accordion" style ="background-color:steelblue;">
+          <p class="centered"><img src="~/Template/img/ui-spongebob.jpg" class="img-circle" width="80"></p>
+          @if (SignInManager.IsSignedIn(User))
+                    {
+                        <h5 style= "text-align:center; padding-left:2px;">Hello @UserManager.GetUserName(User)!</h5>
+                    }
+                    else
+                    {
+                        <h5 style= "text-align:center;" >Hello!</h5>
+                    }
+           @if (SignInManager.IsSignedIn(User))
+{
+    <li class="nav-item">
+        <a id="manage" class="nav-link text-dark" title="Manage">Hello @UserManager.GetUserName(User)!</a>
+    </li>
+    <li class="nav-item">
+        <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+            <button id="logout" type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+        </form>
+    </li>
+}
+else
+{
+    <li class="nav-item">
+        <a class="nav-link text-dark" id="register" asp-area="Identity" asp-page="/Account/Register"
+        style = "color:white; width:150px; text-align:left; border: none; background:none; 
+        font-weight: bold;">Register</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" id="login" asp-area="Identity" asp-page="/Account/Login"
+         style = "color:white; width:150px; text-align:left; border: none; background:none; 
+         font-weight: bold;">Login</a>
+    </li>
+    <li class="nav-item">
+         <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Index"
+            style = "color:white; width:150px; text-align:left; border: none; background:none; 
+            font-weight: bold;">Admin</a>
+     </li>
+     @using (Html.BeginForm("Index", "Home", FormMethod.Get))
+            {
+          <li class="mt">
+             <i style = "color:white;" class="fa fa-book"></i>
+             <input hidden type="text" style = "color:grey;" value="All Applicants">
+              <input type="submit" class ="btn" value="All Applicants"  
+              style = "color:white; width:150px; text-align:left; border: none; background:none; 
+                       font-weight: bold;">
+          </li>
+            }
+    
+    }
+        </ul>
+        <!-- sidebar menu end-->
+      </div>
+    </aside>
+    <!--sidebar end-->
+    <!-- **********************************************************************************************************************************************************
+        MAIN CONTENT
+        *********************************************************************************************************************************************************** -->
+    <!--main content start-->
+    <section id="main-content" style = "background-color:white;">
+      <section class="wrapper" style = "background-color:white;">
+
+<h1>@ViewData["Title"]</h1>
+    @{
+        if (User.Identity.IsAuthenticated)
+        {
+            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
+                <button type="submit" class="nav-link btn btn-link text-dark">Click here to Logout</button>
+            </form>
+        }
+        else
+        {
+            <p>You have successfully logged out of the application.</p>
+        }
+    }
+</section>
+</section>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+
+
+    <!--footer end-->
+  </section>
+
+  <!-- js placed at the end of the document so the pages load faster -->
+  <script src="~/Template/lib/jquery/jquery.min.js"></script>
+  <script type="text/javascript" language="javascript" src="~/Template/lib/advanced-datatable/js/jquery.js"></script>
+  <script src="~/Template/lib/bootstrap/js/bootstrap.min.js"></script>
+  <script class="include" type="text/javascript" src="~/Template/lib/jquery.dcjqaccordion.2.7.js"></script>
+  <script src="~/Template/lib/jquery.scrollTo.min.js"></script>
+  <script src="~/Template/lib/jquery.nicescroll.js" type="text/javascript"></script>
+  <script type="text/javascript" language="javascript" src="~/Template/lib/advanced-datatable/js/jquery.dataTables.js"></script>
+  <script type="text/javascript" src="~/Template/lib/advanced-datatable/js/DT_bootstrap.js"></script>
+  <!--common script for all pages-->
+  <script src="~Template/lib/common-scripts.js"></script>
+  <!--script for this page-->
+  
+</body>

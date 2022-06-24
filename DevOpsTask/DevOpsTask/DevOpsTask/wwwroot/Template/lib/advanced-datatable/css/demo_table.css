@@ -213,11 +213,11 @@ table.display thead td:active {
  * DataTables row classes
  */
 table.display tr.odd.gradeA {
-	background-color: #ddffdd;
+	background-color: #f4f4f4;
 }
 
 table.display tr.even.gradeA {
-	background-color: #eeffee;
+	background-color: #f4f4f4;
 }
 
 table.display tr.odd.gradeC {
@@ -229,11 +229,11 @@ table.display tr.even.gradeC {
 }
 
 table.display tr.odd.gradeX {
-	background-color: #ffdddd;
+	background-color: white;
 }
 
 table.display tr.even.gradeX {
-	background-color: #ffeeee;
+	background-color: #f4f4f4;
 }
 
 table.display tr.odd.gradeU {
@@ -367,27 +367,27 @@ table.display tr.odd.row_selected td {
  */
 /* For the standard odd/even */
 tr.odd td.sorting_1 {
-	background-color: #D3D6FF;
+	background-color: #f4f4f4;
 }
 
 tr.odd td.sorting_2 {
-	background-color: #DADCFF;
+	background-color: #f4f4f4;
 }
 
 tr.odd td.sorting_3 {
-	background-color: #E0E2FF;
+	background-color: #f4f4f4;
 }
 
 tr.even td.sorting_1 {
-	background-color: #EAEBFF;
+	background-color: white;
 }
 
 tr.even td.sorting_2 {
-	background-color: #F2F3FF;
+	background-color: white;
 }
 
 tr.even td.sorting_3 {
-	background-color: #F9F9FF;
+	background-color: white;
 }
 
 
@@ -402,27 +402,27 @@ tr.even td.sorting_3 {
 	  ee > e2
  */
 tr.odd.gradeA td.sorting_1 {
-	background-color: #c4ffc4;
+	background-color: #f4f4f4;
 }
 
 tr.odd.gradeA td.sorting_2 {
-	background-color: #d1ffd1;
+	background-color: #f4f4f4;
 }
 
 tr.odd.gradeA td.sorting_3 {
-	background-color: #d1ffd1;
+	background-color: #f4f4f4;
 }
 
 tr.even.gradeA td.sorting_1 {
-	background-color: #d5ffd5;
+	background-color: #f4f4f4;
 }
 
 tr.even.gradeA td.sorting_2 {
-	background-color: #e2ffe2;
+	background-color: #f4f4f4;
 }
 
 tr.even.gradeA td.sorting_3 {
-	background-color: #e2ffe2;
+	background-color: #f4f4f4;
 }
 
 tr.odd.gradeC td.sorting_1 {
@@ -450,27 +450,27 @@ tr.even.gradeC td.sorting_3 {
 }
 
 tr.odd.gradeX td.sorting_1 {
-	background-color: #ffc4c4;
+	background-color: white;
 }
 
 tr.odd.gradeX td.sorting_2 {
-	background-color: #ffd1d1;
+	background-color: white;
 }
 
 tr.odd.gradeX td.sorting_3 {
-	background-color: #ffd1d1;
+	background-color: white;
 }
 
 tr.even.gradeX td.sorting_1 {
-	background-color: #ffd5d5;
+	background-color: #f4f4f4;
 }
 
 tr.even.gradeX td.sorting_2 {
-	background-color: #ffe2e2;
+	background-color: #f4f4f4;
 }
 
 tr.even.gradeX td.sorting_3 {
-	background-color: #ffe2e2;
+	background-color: #f4f4f4;
 }
 
 tr.odd.gradeU td.sorting_1 {
@@ -554,7 +554,7 @@ table.KeyTable td.focus {
 }
 
 table.display tr.gradeA {
-	background-color: #eeffee;
+	background-color: #f4f4f4;
 }
 
 table.display tr.gradeC {
@@ -562,7 +562,7 @@ table.display tr.gradeC {
 }
 
 table.display tr.gradeX {
-	background-color: #ffdddd;
+	background-color: #f4f4f4;
 }
 
 table.display tr.gradeU {

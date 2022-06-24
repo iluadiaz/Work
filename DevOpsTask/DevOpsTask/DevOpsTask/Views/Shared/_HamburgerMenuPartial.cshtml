@@ -1,0 +1,47 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+<link href="~/css/"Hamburger.css" rel="stylesheet" />
+<body>
+
+<!-- Simulate a smartphone / tablet look -->
+<div syle = "float:right;"class="mobile-container">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <div id="myLinks">
+      @if (SignInManager.IsSignedIn(User))
+{
+    <a style = "color:black;" id="manage" class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @UserManager.GetUserName(User)!</a>
+    <a style = "color:black;" class="dropdown-item" asp-area="" asp-controller="Admin" asp-action="Index">Admin</a>
+     <form style = "color:black;" id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+       <button  style = "color:black;" id="logout" type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+                    </form>
+                }
+                else
+                {
+                    <a style = "color:black;" class="dropdown-item" id="register" asp-area="Identity" asp-page="/Account/Register">Register</a>
+    <a style = "color:black;" class="dropdown-item" id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
+                }
+            </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<!-- End smartphone / tablet look -->
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</body>
